@@ -15,7 +15,7 @@ else:
             print(f"Result = {(fn * sn):.2f}")
         case "/":
             if sn == 0: # Checking division by zero
-                print(f"In division second operand cannot be zero.")
+                print("In division second operand cannot be zero.")
             else:
                 print(f"Result = {(fn / sn):.2f}")
         case _: # In the case that this operand does not exist
